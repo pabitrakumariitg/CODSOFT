@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=P&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+}
+.flex {
+  display: flex;
+  align-items: center;
+}
+.top-banner {
+  background-color: #0000ab;
+  padding: 0px 0px 5px 0px;
+  text-align: center;
+}
+/* navigation bar */
+.main-nav {
+  margin-top: ;
+  justify-content: space-between;
+}
+ul {
+  list-style: none;
+}
+.company-logo img {
+  width: 173px;
+  padding: 9px 12px;
+}
+.product {
+  background-color: #0000ab;
+  width: 110px;
+  height: 70px;
+  padding: 22px 14px;
+  color: white !important;
+  transform: skewX(-20deg); /* Skew the element horizontally */
+  margin-left: 50px;
+  text-align: right;
+}
+.links {
+  width: 90px;
+  height: 70px;
+  padding: 22px 14px;
+  color: #0000ab;
+  text-align: left;
+  font-weight: 550;
+  transition: 0.5s;
+}
+.links:hover {
+  background-color: #0000ab;
+  width: 110px;
+  height: 70px;
+  padding: 22px 14px;
+  color: white !important;
+  transform: skewX(-20deg);
+  transition: 0.5s;
+  text-align: right;
+}
+
+.nav-links ul {
+  justify-content: end;
+  gap: 1px;
+}
+.links.find {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  margin-left: 10px;
+}
+.grey-banner {
+  background-color: #212529;
+  padding: 0px 0px 20px 0px;
+  text-align: center;
+  color: white;
+}
+
+.textbar {
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.textbar:hover {
+  cursor: pointer;
+  color: lightslategray;
+}
+/* header section */
+
+.header-image img {
+  width: 1540px;
+  height: fit-content;
+}
+.bikes {
+  font-size: 77px;
+  font-weight: 900;
+  font-style: italic;
+  color: white;
+  text-align: center;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  transition: 0.5s;
+}
+.bikes:hover {
+  color: #0000ab;
+}
+
+/* bikes section */
+.bikes-section {
+  background-color: #e7ecfc;
+}
+.all-bikes-logo {
+  align-items: center;
+  justify-content: space-between;
+}
+.logo {
+  margin-left: 300px;
+  position: relative;
+  right: 300px;
+  height: 200px;
+}
+
+.logo:hover {
+  cursor: pointer;
+}
+.bike-name {
+  font-weight: bolder;
+  align-items: center;
+  text-align: center;
+  display: inline-block;
+  margin-left: 70px;
+}
+.next {
+  font-size: larger;
+  position: relative;
+  left: 15px;
+}
